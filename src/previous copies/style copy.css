@@ -1,0 +1,591 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    /* background-color: olivedrab;  */
+    padding: 0 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.unnecessary {
+    display: none;
+}
+
+/* Header styles */
+
+header {
+    /* background-color: aquamarine; */
+    margin: auto;
+    max-width: 80%;
+}
+
+/* Brand section styles */
+
+header #brand {
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Marcellus', serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-top: 15px;
+}
+ 
+header #brand img {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+header #brand h1 {
+    margin: 10px;
+}
+
+/* Aside styles */
+
+ aside {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Search by name styles */
+
+.search-container input{
+    width: 150px;
+    height: 25px;
+    padding: 5px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 5px;
+    border: #8A988C solid .5px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+/* Categories menu styles */
+
+.itemAside {
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+     
+input[type=image] {
+    width: 50px;
+    height: 50px;
+}
+    
+label {
+    /* background-color: #D7A180; */
+    padding: 0 30px;
+    margin-top: 5px;
+}
+
+div.itemAside label {
+    font-family: 'Marcellus', serif;
+}
+
+/* Order by drop button styles */
+
+.dropdown label {
+    background-color: #C4CBC5;
+    border-radius: 5px;
+    border: #8A988C solid 1px;
+    box-shadow: 1px 1px 5px gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    padding: 0 20px;
+    width: 90px;
+    height: 20px;
+}
+
+select {
+    width: 80px;
+    height: 20px;
+    border: #8A988C solid 1px;
+    padding: 0px 0 0 32px;
+    background-color: #C4CBC5;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+}
+
+select#itemOrder {
+    opacity: 0;
+    margin: 5px 0 0 -80px;
+}
+
+.dropdown {
+    display: inline-block;
+    display: flex;
+}
+
+/* Main styles */
+
+main {
+    /* background-color: plum; */
+    padding: 10px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#root {
+    /* background-color: #AF4401; */
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;  
+}
+
+ul {
+    /* background-color: purple; */
+    list-style: none;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Card styles */
+
+.card-container {
+    /* background-color: #EBD0BF; */
+    padding: 5px;
+    width: 276px;
+    border-radius: 10px;
+    height: 481px;
+    margin: 30px 40px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+li.card-container.ornamental {
+    background-color: #C4CBC5;
+}
+
+li.card-container.medicinal {
+    background-color: #D3DBC6;
+}
+
+li.card-container.desertica {
+    background-color: #F3F2D3;
+}
+
+li.card-container.arboles {
+    background-color: #F9EDD5;
+}
+
+li.card-container.aromatica {
+    background-color: #EBD0BF;
+}
+
+.hide {
+    display: none;
+}
+
+/* Front card styles */
+
+#front-card {
+    /* background-color: #EBD0BF; */
+    padding: 5px;
+    height: 458px;
+    margin: auto;
+}
+
+#front-card h2 {
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    color: #AF4401;
+    padding: 10px;
+}
+
+#front-card .top-card {
+    /* background-color: black; */
+    display: flex;
+    margin: 5px 0 10px 1px;
+}
+
+#front-card img {
+    margin: 0;
+    /* background-color: #AF4401; */
+}
+
+#front-card .top-card dl {
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 10px 0 0 25px;
+    height: 234px;
+}
+
+#front-card .top-card dt {
+    /* background-color: #AF4401; */
+    font-size: small;
+    margin: 10px 0 5px 0;
+}
+
+#front-card .top-card .amounts dd {
+    padding: 5px;
+    /* background-color: blue; */
+    border-radius: 5px;
+    border: #8A988C .5px solid;
+    box-shadow: 1px 1px 5px grey;
+    height: 40px;
+}
+
+#front-card .top-card .amounts img {
+    /* background-color: white; */
+    width: 20px;
+    height: 20px;
+    margin: 4px 0;
+}
+
+#front-card .amounts img.inactiva {
+    opacity: .5;
+}
+
+#front-card p {
+    /* background-color: aliceblue; */
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 15px;
+    height: 80px;
+}
+
+#front-card .button-container {
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+}
+
+#front-card button {
+    background-color: #D7A180;
+    width: 137px;
+    height: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px grey;
+}
+
+/* Back card styles */
+
+#back-card {
+    /* background-color: white; */
+    padding: 5px 5px;
+    text-align: right;
+    height: 471px;
+}
+
+#back-card h2 {
+    /* background-color: aquamarine; */
+    font-size: 26px;
+    color: #AF4401;
+    font-family: 'Marcellus', serif;
+}
+
+#back-card .top-card {
+    /* background-color: #D7A180; */
+    height: 110px;
+    display: flex;
+    padding: 0 10px;
+    margin: 5px 0 15px 0;
+    text-align: right;
+}
+
+#back-card dt.scientific {
+    /* background-color: aquamarine; */
+    font-size: 16px;
+    color: #AF4401;
+    margin: -10px 0 0 -4px;
+    width: 167px;
+    padding: 5px;
+    font-family: 'Marcellus', serif;
+}
+
+#back-card img.bachPlantImage {
+    /* background-color: #8A988C; */
+    width: 85px;
+    height: 156px;
+    margin: -20px 0 0 0;
+}
+
+#back-card dt {
+    /* background-color: #AF4401; */
+    width: 160px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#back-card dd {
+    /* background-color: #FFFFFF; */
+    font-size: 14px;
+    width: 160px;
+}
+
+#back-card #description {
+    /* background-color: aqua; */
+    text-align: left;
+    margin: 30px 0 0 5px;
+    height: 235px;
+}
+
+#back-card #icons {
+    /* background-color: #AF4401; */
+    height: 35px;
+    width: 278px;
+    display: flex;
+    margin: 15px 0 0 -10px;
+}
+
+div.stats {
+    width: 80px;
+    height: 35px;
+    margin-left: 13px;
+}
+
+div.back {
+    /* background-color: aqua; */
+    width: 35px;
+    height: 35px;
+    margin: -39px 0 0 217px;
+}
+
+#back-card #icons img {
+    /* background-color: aqua; */
+    width: 35px;
+    height: 35px;
+}
+
+img.stats1 {
+    margin-right: 5px;
+}
+
+#back-card #icons .back #Regresar {
+    /* background-color: gray; */
+    width: 35px;
+    height: 35px;
+}
+
+/* Modal popups styles */
+
+.modal, .statsModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content-stats {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    border: 3px solid #E5B655;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    text-align: start;
+    padding: 20px;
+}
+
+.modal-content-stats h3:first-letter {
+    text-transform: uppercase;
+}
+
+.modal-content-stats h3 {
+    font-family: 'Marcellus SC', serif;
+    color: #4F6F1D;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+div.factLabels {
+    background-color: blueviolet;
+    /* padding: 10px; */
+    display: flex;
+}
+
+div.statsTotals h5 {
+    background-color: #E5B655;
+    font-family: 'Marcellus SC', serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 0 25px 80px;
+    text-shadow: .5px .5px .5px gray;
+}
+
+div.factLabels .area {
+    /* background-color: #555; */
+    margin-top: 5px;
+    display: flex;
+}
+
+div.factLabels .square {
+    height: 20px;
+    width: 30px;
+    margin: 0 10px 35px 0;
+    border-radius: 5px;
+}
+
+div.factLabels .square.agua {
+    background-color: #D7A180;
+}
+
+div.factLabels .square.luz {
+    background-color: #F2DBAA;
+}
+
+div.factLabels .square.cuidado {
+    background-color: #E7E4A7;
+}
+
+h5.agua {
+    color: #D7A180;
+}
+
+h5.luz {
+    color: #E5B655;
+}
+
+h5.cuidado {
+    color: #D0C950;
+}
+
+.modal-content-stats h4 {
+    /* background-color: #4F6F1D; */
+    font-family: 'Marcellus SC', serif;
+    font-size: 21px;
+    text-align: center;
+    font-weight: lighter;
+    /* margin-bottom: 20px; */
+    color: #4F6F1D;
+}
+  
+.modal-content-description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    border: 3px solid #D0C950;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    text-align: start;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+.modal-content-description h3 {
+    font-family: 'Marcellus', serif;
+    margin-bottom: 15px;
+    color: #AF4401;
+    font-size: 23px;
+    text-align: center;
+}
+
+/* Footer styles */
+
+footer {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 110px;
+    width:100%;
+    background-color: #D7A180;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: large;
+}
+
+footer h3 {
+    font-family: 'Marcellus', serif;
+    font-size: larger;
+    margin-bottom: 8px;
+
+}
+
+
+
+
+
+
+
+/*Este es el que me traje de w3s*/
+/*the container must be positioned relative:*/
+/* .dropdown {
+    position: relative;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: smaller;
+  } */
+  
+  /* .dropdown select {
+     display: none; hide original SELECT element:
+  } */
+  
+  /* .select-selected {
+    background-color: #C4CBC5;
+    border-radius: 5px;
+    border: #8A988C solid 1px;
+    box-shadow: 1px 1px 5px gray;
+    width: 110px;
+    height: 20px;
+  } */
+  
+  /*style the items (options), including the selected item:*/
+  /* .select-items div,.select-selected {
+    padding: 2px 20px;
+    cursor: pointer;
+  }*/
+
+  .card-container{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor:default;
+    transition: all 400ms ease;
+  }
+
+  .card-container:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translate(-5%);
+  }
+   
+  .back-card{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor:default;
+    transition: all 400ms ease;
+  } 

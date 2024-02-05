@@ -1,8 +1,8 @@
-import { renderItems } from './view.js';
+import { renderItems } from './view-cleaning.js';
 import data from './data/dataset.js';
-import { filterData } from './dataFunctions.js';
-import { sortData } from './dataFunctions.js';
-import { createStatistics } from './dataFunctions.js';
+import { filterData } from './data-functions-Cleaning.js';
+import { sortData } from './data-functions-Cleaning.js';
+import { createStatistics } from './data-functions-Cleaning.js';
 
 //----------------------
 //Keeps an array object in the original state
