@@ -520,12 +520,11 @@ footer {
 
 footer h3 {
     font-family: 'Marcellus', serif;
-    font-size: 20px;
     margin: 14px 0 7px 0;
     /* margin-bottom: 8px; */
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     /* Header styles */
 
@@ -673,8 +672,6 @@ footer h3 {
         font-size: 9px;
         display: flex;
         justify-content: center;
-
-        
     }
 
     footer h3 {
