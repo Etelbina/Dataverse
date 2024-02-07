@@ -1,12 +1,12 @@
 //----------------------
-/**
-* This function receives a plant model and extract the fact information
-* rendering depending of the value found in the model
-*
-* @param { card } plant - The plant model that contains the info
-* @param { HTML element } cardItem - The card that represents UI the element inside the DOM 
-*/
-export const renderFactImages = (plant, cardItem) => {
+// /**
+// * This function receives a plant model and extract the fact information
+// * rendering depending of the value found in the model
+// *
+// * @param { card } plant - The plant model that contains the info
+// * @param { HTML element } cardItem - The card that represents UI the element inside the DOM 
+// */
+const renderFactImages = (plant, cardItem) => {
   // Create static elements
   const waterActiveImage = document.createElement("img");
   waterActiveImage.alt="Gota";
@@ -51,7 +51,7 @@ export const renderFactImages = (plant, cardItem) => {
   const careDifficulty = plant.facts.careDifficulty;
 
   const waterArea = cardItem.querySelector(".water-icons");
-  document.getElementById('water');
+  document.querySelector('#water');
 
   // 3 - condicionales
   // 3.1 repetir por fact
@@ -78,7 +78,7 @@ export const renderFactImages = (plant, cardItem) => {
 
   //Repeat for Light amount
   const lightArea = cardItem.querySelector(".light-icons");
-  document.getElementById('light');
+  document.querySelector('#light');
 
   if (sunLight === 1) {
     lightArea.appendChild(lightActiveImage);
@@ -99,7 +99,7 @@ export const renderFactImages = (plant, cardItem) => {
 
   //Repeat for Care amount
   const careArea = cardItem.querySelector(".care-icons");
-  document.getElementById('care');
+  document.querySelector('#care');
 
   if (careDifficulty === 1) {
     careArea.appendChild(careActiveImage);
@@ -132,7 +132,7 @@ export const renderFactImages = (plant, cardItem) => {
  */
 export const renderItems = (data) => {
   // Creating list, container to host all the cards
-  const cardList = document.getElementById("ul-cards");
+  const cardList = document.querySelector("#ul-cards");
   
   //Iterates for each element of the object from data
   data.forEach(element => {
@@ -225,7 +225,7 @@ export const renderItems = (data) => {
     //Add icons area to the reverse card that contains
     //stats, description and reverse buttons
     const icons = cardItem.querySelector("#icons");
-    document.getElementById('icons');
+    document.querySelector('#icons');
     icons.appendChild(statisticsButton);
     icons.appendChild(descriptionButton);
     icons.appendChild(backButton);

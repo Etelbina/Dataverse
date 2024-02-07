@@ -42,7 +42,7 @@ export default [
   {
     //1
     "id": "menta",
-    "categoryPlant":"aromatic",
+    "categoryPlant":"aromatica",
     "name": "Menta",
     "description": "La menta es una planta aromática de hojas verdes y refrescantes, que es conocida por su sabor característico y versatilidad en la cocina y la medicina herbal. Sus hojas son ampliamente utilizadas para dar sabor a tés, postres y platos salados. La menta también se utiliza para hacer infusiones que ayudan a aliviar problemas digestivos y malestares estomacales. Esta planta perenne se extiende rápidamente y puede convertirse en una cobertura de suelo densa. Prefiere la luz solar parcial y suelos húmedos. La menta es una elección popular para jardines de hierbas, y su agradable aroma también repele insectos.",
     "shortDescription": "Hierba aromática refrescante, usada en cocina y medicina.",
@@ -62,7 +62,7 @@ export default [
   {
     //1
     "id": "cactus-saguaro",
-    "categoryPlant":"desert",
+    "categoryPlant":"desertica",
     "name": "Cactus Saguaro",
     "description": "El cactus saguaro, o saguaro (Carnegiea gigantea), es una icónica especie de cactus que se encuentra en el desierto de Sonora y otras áreas desérticas del suroeste de Estados Unidos y el noroeste de México. Es conocido por su aspecto distintivo con brazos en forma de candelabro que pueden alcanzar alturas impresionantes, a menudo superando los 12 metros. Los saguaros pueden vivir durante siglos y son una parte fundamental del ecosistema del desierto, proporcionando refugio y alimento a la fauna del desierto. El cactus saguaro es un símbolo del suroeste de Estados Unidos y una característica icónica del paisaje desértico.",
     "shortDescription": "Icono del desierto con forma de candelabro, vital para su ecosistema.",
@@ -82,7 +82,7 @@ export default [
   {
     //1
     "id": "roble",
-    "categoryPlant":"trees",
+    "categoryPlant":"arbol",
     "name": "Roble",
     "description": "El roble es un género de árboles que incluye muchas especies en todo el mundo. Los robles son conocidos por su tamaño majestuoso y su importancia ecológica. Sus hojas son generalmente lobuladas y caducas, lo que significa que caen en otoño. Los robles son árboles de hoja ancha que se encuentran en una variedad de hábitats, desde bosques hasta parques urbanos. Son apreciados por su madera resistente y duradera, así como por su importancia para la fauna, ya que proporcionan alimento y refugio para numerosas especies.",
     "shortDescription": "Árbol duradero con madera fuerte, usado en carpintería.",
@@ -142,7 +142,7 @@ export default [
   {
     //2
     "id": "albahaca",
-    "categoryPlant":"aromatic",
+    "categoryPlant":"aromatica",
     "name": "Albahaca",
     "description": "La albahaca es una hierba aromática ampliamente utilizada en la cocina debido a su sabor y aroma distintivos. Sus hojas son de color verde brillante y tienen un sabor fresco y ligeramente dulce. La albahaca es un ingrediente esencial en muchas recetas, incluyendo platos italianos como la pasta y la pizza, así como ensaladas y salsas. Además de su uso culinario, la albahaca se aprecia por su valor medicinal y sus propiedades antiinflamatorias y antioxidantes. En el jardín, la albahaca prospera bajo el sol directo y en suelos bien drenados. Es una elección popular para jardines de hierbas.",
     "shortDescription": "Hierba culinaria clave en la cocina italiana, de aroma y sabor distintivos.",
@@ -162,7 +162,7 @@ export default [
   {
     //2
     "id": "ocotillo",
-    "categoryPlant":"desert",
+    "categoryPlant":"desertica",
     "name": "Ocotillo",
     "description": "El ocotillo es otro cactus del suroeste de Estados Unidos y el norte de México. A diferencia del cactus saguaro, el ocotillo no es un cactus gigante y no tiene brazos prominentes. En su lugar, se compone de tallos delgados y espinosos que pueden crecer hasta 6 metros de altura. Durante la temporada de lluvias, el ocotillo produce hojas pequeñas y verdes, pero en períodos secos, las hojas pueden caer para conservar la humedad. El ocotillo es conocido por sus llamativas flores rojas o anaranjadas que aparecen en la parte superior de sus tallos durante la primavera y el verano.",
     "shortDescription": "Planta desértica con tallos espinosos y flores rojas.",
@@ -182,7 +182,7 @@ export default [
   {
     //2
     "id": "sauce-lloron",
-    "categoryPlant":"trees",
+    "categoryPlant":"arbol",
     "name": "Sauce Llorón",
     "description": "El sauce llorón, científicamente conocido como Salix babylonica, es un árbol ornamental conocido por su aspecto distintivo y su elegancia. Sus ramas colgantes y flexibles crean una apariencia que evoca la imagen de lágrimas cayendo, lo que le da su nombre. El sauce llorón es apreciado por su follaje verde claro y su capacidad para crear una sombra fresca y refrescante en áreas de jardín o junto al agua. Durante la primavera, produce pequeñas flores colgantes que atraen a abejas y mariposas. Es un árbol que prefiere la humedad del suelo y es ideal para zonas con acceso a agua.",
     "shortDescription": "Árbol con ramas colgantes, común en paisajes y parques.",
@@ -242,7 +242,7 @@ export default [
   {
     //3
     "id": "cilantro",
-    "categoryPlant":"aromatic",
+    "categoryPlant":"aromatica",
     "name": "Cilantro",
     "description": "El cilantro es una hierba versátil que se utiliza en una variedad de cocinas alrededor del mundo. Sus hojas verdes y finamente divididas tienen un sabor fresco y cítrico, y se utilizan comúnmente en platos mexicanos, asiáticos y mediterráneos. Además de las hojas, las semillas de cilantro se utilizan como especia en la cocina. El cilantro también es apreciado por su valor medicinal y se cree que tiene propiedades digestivas y antioxidantes. En el jardín, el cilantro prefiere la luz solar parcial y suelos bien drenados. Es una planta anual que puede autosembrarse si se le permite.",
     "shortDescription": "Hierba aromática con hojas y semillas utilizadas en cocina.",
@@ -262,7 +262,7 @@ export default [
   {
     //3
     "id": "agave-azul",
-    "categoryPlant":"desert",
+    "categoryPlant":"desertica",
     "name": "Agave Azul",
     "description": "El agave azul, científicamente conocido como Agave tequilana, es una planta suculenta originaria de México y es famosa por ser la materia prima principal para la producción de tequila. Tiene hojas largas y puntiagudas de color azul grisáceo que crecen en una forma de roseta. Las hojas del agave azul son gruesas y carnosas, y están cubiertas de espinas en los bordes. Esta planta requiere pleno sol y suelos bien drenados para prosperar. Después de muchos años de crecimiento, el agave azul produce una gran inflorescencia de flores amarillas antes de completar su ciclo de vida.",
     "shortDescription": "Planta suculenta usada en la producción de tequila.",
@@ -282,7 +282,7 @@ export default [
   {
     //3
     "id": "secuoya-roja",
-    "categoryPlant":"trees",
+    "categoryPlant":"arbol",
     "name": "Secuoya Roja",
     "description": "La secuoya roja, también conocida como secoya gigante (Sequoiadendron giganteum), es una especie de árbol de hoja perenne que es conocida por ser uno de los árboles más grandes y antiguos del mundo. Las secuoyas rojas son famosas por su inmenso tamaño, con ejemplares que pueden alcanzar alturas de más de 100 metros y tener troncos de gran diámetro. Su corteza es de color rojizo y su follaje es de un verde profundo. Estos árboles son venerados por su longevidad y belleza, y algunos de ellos tienen miles de años de antigüedad.",
     "shortDescription": "Uno de los árboles más altos del mundo, símbolo de la costa oeste de EE. UU.",
@@ -342,7 +342,7 @@ export default [
   {
     //4
     "id": "romero",
-    "categoryPlant":"aromatic",
+    "categoryPlant":"aromatica",
     "name": "Romero",
     "description": "El romero es una hierba aromática perenne con hojas lineales y fragantes que emiten un aroma distintivo y delicioso. Originario de la región mediterránea, el romero se ha utilizado en la cocina y la medicina durante siglos. Sus hojas verdes y resistentes son ideales para sazonar carnes, aves, pescados y platos vegetales, y se puede utilizar tanto fresco como seco. Además de su uso culinario, el romero se considera un símbolo de la memoria y la longevidad. En el jardín, el romero prefiere la luz solar directa y suelos bien drenados.",
     "shortDescription": "Hierba perenne aromática, utilizada en cocina y medicina.",
@@ -362,7 +362,7 @@ export default [
   {
     //4
     "id": "palo-verde",
-    "categoryPlant":"desert",
+    "categoryPlant":"desertica",
     "name": "Palo Verde",
     "description": "El palo verde es un árbol nativo del suroeste de Estados Unidos y el norte de México, conocido por su capacidad para adaptarse a las condiciones desérticas. Su nombre se deriva de su corteza de color verde que realiza la fotosíntesis. Durante la primavera, el palo verde se llena de flores amarillas brillantes, lo que lo convierte en un espectáculo impresionante en el paisaje desértico. Aunque pierde sus hojas durante la temporada seca para conservar la humedad, el palo verde es un árbol resistente y valioso en la reforestación de áreas áridas y jardinería paisajística en regiones desérticas.",
     "shortDescription": "Árbol desértico con corteza verde, adaptado a condiciones áridas.",
@@ -382,7 +382,7 @@ export default [
   {
     //4
     "id": "arce",
-    "categoryPlant":"trees",
+    "categoryPlant":"arbol",
     "name": "Arce",
     "description": "El arce es conocido por sus hojas palmadas y sus coloridos cambios de follaje en otoño. Hay muchas especies de arces en todo el mundo, pero los arces japoneses y los arces rojos son particularmente apreciados por su belleza ornamental. Los arces japoneses tienen hojas delicadamente lobuladas que adquieren tonos rojos, naranjas y amarillos espectaculares durante el otoño. Los arces rojos son conocidos por sus hojas de cinco lóbulos que se vuelven rojas brillantes en otoño. Además de su atractivo estacional, los arces son valorados por su madera y la savia que se utiliza para hacer jarabe de arce.",
     "shortDescription": "Árbol famoso por su savia para jarabe y hojas otoñales coloridas.",
@@ -422,7 +422,7 @@ export default [
   {
     //5
     "id": "oregano",
-    "categoryPlant":"aromatic",
+    "categoryPlant":"aromatica",
     "name": "Orégano",
     "description": "El orégano es una hierba aromática con hojas pequeñas y ovaladas que emanan un aroma fuerte y sabroso. Es un ingrediente esencial en muchas cocinas, especialmente en la cocina italiana y mediterránea. El orégano se utiliza para sazonar pizzas, pastas, ensaladas, salsas y mucho más. Su sabor es cálido, terroso y ligeramente picante. Además de su uso culinario, el orégano tiene propiedades medicinales y se cree que tiene beneficios para la digestión y la salud en general. Es una planta perenne que se propaga fácilmente y es una adición valiosa tanto para jardines de hierbas como para macetas.",
     "shortDescription": "Hierba clave en la cocina mediterránea y mexicana.",
@@ -442,7 +442,7 @@ export default [
   {
     //5
     "id": "yucca",
-    "categoryPlant":"desert",
+    "categoryPlant":"desertica",
     "name": "Yucca",
     "description": "La yuca, también conocida como yuca desértica (Yucca schidigera), es una planta suculenta que se encuentra en regiones áridas del suroeste de Estados Unidos y México. Tiene hojas largas y puntiagudas que forman una roseta en la base de la planta. La yuca produce una espectacular inflorescencia de flores blancas y campaniformes en el extremo de un alto tallo durante la primavera. Esta planta es resistente y se ha adaptado a las condiciones desérticas, lo que la convierte en una elección popular en jardines de xeriscape.",
     "shortDescription": "Planta suculenta con hojas en forma de espada y flores blancas.",
@@ -462,7 +462,7 @@ export default [
   {
     //5
     "id": "baobab",
-    "categoryPlant":"trees",
+    "categoryPlant":"arbol",
     "name": "Baobab",
     "description": "El baobab es inconfundible que se encuentra en diversas regiones de África, especialmente en las zonas secas y áridas. Lo más llamativo del baobab es su tronco grueso y bulboso que almacena agua, lo que le permite sobrevivir en condiciones de sequía. Su apariencia peculiar, con el tronco ancho y ramas que se asemejan a raíces hacia arriba, le ha valido el nombre de \"árbol boca abajo\" en algunas culturas. Además de su resistencia y valor como fuente de agua y alimento en las comunidades locales, el baobab produce frutos ricos en nutrientes que se utilizan en alimentos y bebidas.",
     "shortDescription": "Árbol con tronco grueso, símbolo de vida en regiones áridas.",
