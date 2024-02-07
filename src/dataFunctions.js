@@ -122,19 +122,3 @@ export const computeStats = (data) => {
   
   return statsByCategory;
 }
-
-// export const computeStats2 =(data, propiedadDeseada) => {
-//   const propertyValues=[];
-
-//   data.forEach(object => {
-//     //acceder a la propiedad
-//     const factToExtract = object.facts[propiedadDeseada];
-//     //agregar el resultado al array
-//     propertyValues.push(factToExtract);
-//   });
-
-//   const suma = propertyValues.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-//   const promedio = suma/data.length;
-  
-//   return Math.round(promedio);
-// };
